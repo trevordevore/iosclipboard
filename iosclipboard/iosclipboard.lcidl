@@ -1,0 +1,10 @@
+//
+//  iosclipboard.lcidlc
+//  iosclipboard
+//
+//  Created by Trevor K DeVore on 6/24/11.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//
+
+// The name of the external (note external name must be all lowercase!)
+external iosclipboard

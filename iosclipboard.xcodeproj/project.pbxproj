@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B0FFD5B13B4CCAD00921B13 /* iosclipboard.lcidl in Sources */ = {isa = PBXBuildFile; fileRef = 1B0FFD5A13B4CCAD00921B13 /* iosclipboard.lcidl */; };
+		1B0FFD5D13B4CCAD00921B13 /* iosclipboard.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1B0FFD5C13B4CCAD00921B13 /* iosclipboard.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B0FFD5613B4CCAD00921B13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B0FFD4713B4CCAC00921B13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B0FFD4F13B4CCAD00921B13;
+			remoteInfo = iosclipboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B0FFD5013B4CCAD00921B13 /* libiosclipboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiosclipboard.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0FFD5413B4CCAD00921B13 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0FFD5913B4CCAD00921B13 /* iosclipboard.ios */ = {isa = PBXFileReference; lastKnownFileType = text; path = iosclipboard.ios; sourceTree = "<group>"; };
+		1B0FFD5A13B4CCAD00921B13 /* iosclipboard.lcidl */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.livecode.idl; path = iosclipboard.lcidl; sourceTree = "<group>"; };
+		1B0FFD5C13B4CCAD00921B13 /* iosclipboard.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = iosclipboard.mm; sourceTree = "<group>"; };
+		1B0FFD5E13B4CCAE00921B13 /* iosclipboard.livecode */ = {isa = PBXFileReference; lastKnownFileType = file; path = iosclipboard.livecode; sourceTree = "<group>"; };
+		1B0FFD5F13B4CCAE00921B13 /* test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B0FFD4D13B4CCAD00921B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B0FFD4513B4CCAC00921B13 = {
+			isa = PBXGroup;
+			children = (
+				1B0FFD5813B4CCAD00921B13 /* iosclipboard */,
+				1B0FFD5113B4CCAD00921B13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B0FFD5113B4CCAD00921B13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B0FFD5013B4CCAD00921B13 /* libiosclipboard.a */,
+				1B0FFD5413B4CCAD00921B13 /* test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B0FFD5813B4CCAD00921B13 /* iosclipboard */ = {
+			isa = PBXGroup;
+			children = (
+				1B0FFD5913B4CCAD00921B13 /* iosclipboard.ios */,
+				1B0FFD5A13B4CCAD00921B13 /* iosclipboard.lcidl */,
+				1B0FFD5C13B4CCAD00921B13 /* iosclipboard.mm */,
+				1B0FFD5E13B4CCAE00921B13 /* iosclipboard.livecode */,
+				1B0FFD5F13B4CCAE00921B13 /* test-Info.plist */,
+			);
+			path = iosclipboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B0FFD4F13B4CCAD00921B13 /* iosclipboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B0FFD6213B4CCAE00921B13 /* Build configuration list for PBXNativeTarget "iosclipboard" */;
+			buildPhases = (
+				1B0FFD4C13B4CCAD00921B13 /* Sources */,
+				1B0FFD4D13B4CCAD00921B13 /* Frameworks */,
+				1B0FFD4E13B4CCAD00921B13 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iosclipboard;
+			productName = iosclipboard;
+			productReference = 1B0FFD5013B4CCAD00921B13 /* libiosclipboard.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1B0FFD5313B4CCAD00921B13 /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B0FFD6513B4CCAE00921B13 /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				1B0FFD5213B4CCAD00921B13 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B0FFD5713B4CCAD00921B13 /* PBXTargetDependency */,
+			);
+			name = test;
+			productName = test;
+			productReference = 1B0FFD5413B4CCAD00921B13 /* test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B0FFD4713B4CCAC00921B13 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1B0FFD4A13B4CCAC00921B13 /* Build configuration list for PBXProject "iosclipboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B0FFD4513B4CCAC00921B13;
+			productRefGroup = 1B0FFD5113B4CCAD00921B13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B0FFD4F13B4CCAD00921B13 /* iosclipboard */,
+				1B0FFD5313B4CCAD00921B13 /* test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B0FFD4E13B4CCAD00921B13 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "sh \"$LIVECODE_SDKROOT/tools/lclink.sh\"";
+		};
+		1B0FFD5213B4CCAD00921B13 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "sh \"$LIVECODE_SDKROOT/tools/lclinktest.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B0FFD4C13B4CCAD00921B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0FFD5B13B4CCAD00921B13 /* iosclipboard.lcidl in Sources */,
+				1B0FFD5D13B4CCAD00921B13 /* iosclipboard.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B0FFD5713B4CCAD00921B13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B0FFD4F13B4CCAD00921B13 /* iosclipboard */;
+			targetProxy = 1B0FFD5613B4CCAD00921B13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B0FFD6013B4CCAE00921B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "\"$(LIVECODE_SDKROOT)/headers\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				LIVECODE_SDKROOT = "$(USER_LIBRARY_DIR)/Application Support/RunRev/Components/LiveCodeSDK";
+				LIVECODE_TEST_EXTERNAL = iosclipboard;
+				LIVECODE_TEST_STACK = "$(SRCROOT)/iosclipboard/iosclipboard.livecode";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B0FFD6113B4CCAE00921B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "\"$(LIVECODE_SDKROOT)/headers\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				LIVECODE_SDKROOT = "$(USER_LIBRARY_DIR)/Application Support/RunRev/Components/LiveCodeSDK";
+				LIVECODE_TEST_EXTERNAL = iosclipboard;
+				LIVECODE_TEST_STACK = "$(SRCROOT)/iosclipboard/iosclipboard.livecode";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B0FFD6313B4CCAE00921B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				LIVECODE_DEP_FILE = "$(SRCROOT)/iosclipboard/iosclipboard.ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B0FFD6413B4CCAE00921B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				LIVECODE_DEP_FILE = "$(SRCROOT)/iosclipboard/iosclipboard.ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1B0FFD6613B4CCAE00921B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/iosclipboard/test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B0FFD6713B4CCAE00921B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/iosclipboard/test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B0FFD4A13B4CCAC00921B13 /* Build configuration list for PBXProject "iosclipboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0FFD6013B4CCAE00921B13 /* Debug */,
+				1B0FFD6113B4CCAE00921B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B0FFD6213B4CCAE00921B13 /* Build configuration list for PBXNativeTarget "iosclipboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0FFD6313B4CCAE00921B13 /* Debug */,
+				1B0FFD6413B4CCAE00921B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B0FFD6513B4CCAE00921B13 /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0FFD6613B4CCAE00921B13 /* Debug */,
+				1B0FFD6713B4CCAE00921B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B0FFD4713B4CCAC00921B13 /* Project object */;
+}
