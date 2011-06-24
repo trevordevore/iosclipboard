@@ -8,3 +8,9 @@
 
 // The name of the external (note external name must be all lowercase!)
 external iosclipboard
+
+use c++-naming
+use objc-objects
+
+command copyTextToClipboard
+    in textToCopy as objc-data
